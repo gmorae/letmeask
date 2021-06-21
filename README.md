@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<p align="center">	
+   <a href="https://www.linkedin.com/in/gabriel-moraes-martins/">
+      <img alt="Gabriel Moraes" src="https://img.shields.io/badge/-Gabriel%20Moraes-5965E0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmorae/letmeask?color=5965E0">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <a href="https://github.com/gmorae/letmeask/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmorae/letmeask?color=5965E0">
+  </a>
+</p>
 
-## Available Scripts
+<div align="center">
+  <sub>The NLW 6 project. Built with ❤︎ by
+    <a href="https://github.com/gmorae">Gabriel Moraes</a> and
+    <a href="https://github.com/gmorae/move.on/graphs/contributors">
+      contributors
+    </a>
+  </sub>
+</div>
 
-In the project directory, you can run:
+# :pushpin: Table of Contents
 
-### `yarn start`
+* [Technologies](#computer-technologies)
+* [Features](#rocket-features)
+* [How to Run](#construction_worker-how-to-run)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Web Screenshot
+🚧 Under development
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# :computer: Technologies
+This project was made using the following technologies:
 
-### `yarn test`
+🚧 Under development     
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :rocket: Features
 
-### `yarn build`
+# :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/gmorae/letmeask.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Go to server folder
+$ cd letmeask
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install Dependencies
+$ yarn or npm i
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run Aplication
+$ yarn start or npm start
+```
 
-### `yarn eject`
+Go to http://localhost:3000/ to see the result.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Made with ❤︎ by [Gabriel Moraes](https://github.com/gmorae) 👨🏻‍🚀 🚀.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if this project helped you!
