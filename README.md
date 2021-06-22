@@ -1,57 +1,80 @@
-<p align="center">	
-   <a href="https://www.linkedin.com/in/gabriel-moraes-martins/">
-      <img alt="Gabriel Moraes" src="https://img.shields.io/badge/-Gabriel%20Moraes-5965E0?style=flat&logo=Linkedin&logoColor=white" />
-   </a>
-  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmorae/letmeask?color=5965E0">
+<p align="center">
+   <img src=".github/logo.svg" alt="Logo" />
+</p>
+<h3 align="center">
+   Next Level Week Together 👨🏻‍🚀 🚀
+</h3>
 
-  <a href="https://github.com/gmorae/letmeask/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmorae/letmeask?color=5965E0">
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gmorae/letmeask?color=525dcb">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gmorae/letmeask?color=525dcb">
+
+  	
+  <a href="https://www.linkedin.com/in/gabriel-moraes-martins/">
+    <img alt="Made by gmorae" src="https://img.shields.io/badge/made%20by-Gabriel Moraes-%2304D361?color=525dcb">
   </a>
+	
+  
+  <a href="https://github.com/gmorae/letmeask/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gmorae/letmeask?color=525dcb">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=525dcb">
+   
+   <a href="https://github.com/gmorae/letmeask/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/gmorae/letmeask?color=525dcb">
+  </a>
+   
 </p>
 
-<div align="center">
-  <sub>The NLW 6 project. Built with ❤︎ by
-    <a href="https://github.com/gmorae">Gabriel Moraes</a> and
-    <a href="https://github.com/gmorae/move.on/graphs/contributors">
-      contributors
-    </a>
-  </sub>
-</div>
+<img alt="Capa" src=".github/Capa.png">
 
-# :pushpin: Table of Contents
 
-* [Technologies](#computer-technologies)
-* [Features](#rocket-features)
-* [How to Run](#construction_worker-how-to-run)
+## 🛠 Tecnologias
 
-### Web Screenshot
-🚧 Under development
+This project was developed using the following technologies:
 
-# :computer: Technologies
-This project was made using the following technologies:
+- [React][reactjs]
+- [TypeScript][typescript]
+- [Firebase][firebase]
 
-🚧 Under development     
 
-# :rocket: Features
+## 🚀 Run the project
 
-# :construction_worker: How to run
 ```bash
-# Clone Repository
-$ git clone https://github.com/gmorae/letmeask.git
+# Clone the project
+$ git clone https://github.com/gmorae/letmeask
 
-# Go to server folder
+# Access the folder
 $ cd letmeask
 
-# Install Dependencies
-$ yarn or npm i
+# Install the dependencies
+$ yarn
 
-# Run Aplication
-$ yarn start or npm start
+# Start the project
+$ yarn start
+
+# The app will be available for access on your browser at http://localhost:3000
 ```
 
-Go to http://localhost:3000/ to see the result.
+## 🔖 Layout 
 
-Made with ❤︎ by [Gabriel Moraes](https://github.com/gmorae) 👨🏻‍🚀 🚀.
+You can view the project layout through the links below:
 
-Give a ⭐️ if this project helped you!
+[Figma][prototipo]
+
+Remembering that you need to have a [Figma][figma] account to access it.
+
+
+## 📝 License
+This project is licensed under the MIT License.
+
+
+Made with ❤️ by Gabriel Moraes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gabriel-moraes-martins/)
+
+[typescript]: https://www.typescriptlang.org/
+[reactjs]: https://reactjs.org
+[firebase]: https://firebase.google.com/
+[prototipo]: https://www.figma.com/file/wNgEV5v2vX00TKi4NzyGD4/Letmeask-Copy?fuid=767115048822343972
+[figma]: https://figma.com
