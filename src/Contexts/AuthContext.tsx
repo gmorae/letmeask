@@ -3,7 +3,7 @@ import React, { createContext, ReactNode, useEffect, useState } from 'react';
 import { auth, firebase } from '../services/firebase';
 
 type AuthContextTypes = {
-  user: Object | undefined,
+  user: User | undefined,
   signInWithGoogle: () => Promise<void>
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FormEvent, useState } from 'react'
 import { useHistory } from 'react-router';
 
 import { Button } from '../Components/Button';
@@ -9,15 +9,36 @@ import logo from '../assets/images/logo.svg';
 import googleIcon from '../assets/images/google-icon.svg';
 
 import '../styles/auth.scss';
+import { database } from '../services/firebase';
 
 export function Home() {
 
   const history = useHistory()
   const { signInWithGoogle, user } = useAuth()
 
+  const [roomCode, setRoomCode] = useState('')
+
   async function handleCreateRoom() {
-    if(!user) await signInWithGoogle()
+    if (!user) await signInWithGoogle()
     history.push('/rooms/new')
+  }
+
+  async function handleJoinRoom(e: FormEvent) {
+    e.preventDefault();
+
+    if (roomCode.trim() === '') {
+      return;
+    }
+
+    const roomRef = await database.ref(`rooms/${roomCode}`).get()
+
+    if(!roomRef.exists()) {
+      alert('Room not exists. ')
+      return;
+    }
+
+    history.push(`/rooms/${roomCode}`)
+
   }
 
   return (
@@ -35,10 +56,12 @@ export function Home() {
             Create your room with Google
           </button>
           <div className="separator">or sign in a room</div>
-          <form>
+          <form onSubmit={handleJoinRoom}>
             <input
               type="text"
               placeholder="Enter room code"
+              value={roomCode}
+              onChange={text => setRoomCode(text.target.value)}
             />
             <Button>
               Enter the room
